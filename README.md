@@ -1,3 +1,6 @@
+# MSSFS
+The code used for the model Multiprocess State Space Model with Feedback and Switching (MSSFS)
+
 sim.R  
 The main function for simulations
 
