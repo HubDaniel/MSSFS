@@ -1,20 +1,20 @@
-sim.R
+sim.R  
 The main function for simulations
 
-rcpp_likelihood.R
+rcpp_likelihood.R  
 The Rcpp function used to compute the Q functino in the EM algorithm. Optimized using optim() function in R to get estimate of parameters.
 
-rcpp_MKFIS.R
+rcpp_MKFIS.R  
 The Rcpp function used to do Multiprocess Kalman Filter and Multiprocess Fixed Interval Smoothing. 
 
-utils.R
+utils.R  
 Other functions needed for simulaltion setup, collecting results, etc.
 
-rcpp_likelihood_L2.R
+rcpp_likelihood_L2.R  
 Added L2 penalty to rcpp_likelihood.R
 
-rcpp_MKFIS_L2.R
+rcpp_MKFIS_L2.R  
 The same as rcpp_MKFIS.R. For version control use only.
 
-utils_L2.R
+utils_L2.R  
 The same as utils.R. For version control use only.
